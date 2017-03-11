@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+
+body
+{
+	margin:0;
+	padding:0;
+	background-color:#be1e2d;
+	
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:lighter;
+	font-size:22px;
+	line-height: 1.3;
+	color:#342f30;
+}
+
+#content
+{
+	/*width:1120px;*/
+	margin:auto;
+	min-width: 1181px;
+	overflow:visible;
+/*	box-shadow: 0px 0px 10px #000;	
+*/	background-color:#be1e2d;
+
+}
+
+.inner-content
+{
+/*	background-color:#ff0000;
+*/  margin: auto;
+    position: relative;
+    width: 1120px;
+}
+
+.section
+{
+/*	width:100%; 
+*/	text-align:center;
+	margin-bottom:40px;
+	position:relative;
+	min-width: 1120px;
+}
+
+
+.paper
+{
+	background-color:#FFF;
+	background-image:url("img/paper_pattern.jpg");
+	background-repeat:repeat;
+box-shadow: 0 0 8px #444 inset;
+}
+
+.foot-note
+{
+	font-size:11px;
+	font-weight:bold;	
+}
+
+/*--------------------------------*/
+
+
+/*HEADER*/
+
+.header
+{
+}
+
+.header-rule {
+	background-color: #fae8d2;
+	height: 5px;
+	width:1120px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:40px;
+}
+
+.download-btn
+{
+	margin-top:-135px;
+	margin-bottom:135px;
+}
+
+
+/*PAGES*/
+
+.pages-section
+{
+	height:820px;
+}
+.pages-text
+{
+	position:absolute;
+	left:19px;
+	top:260px;
+}
+
+.pages-html-text
+{
+	position:absolute;
+	left:19px;
+	top:360px;
+	width:420px;
+}	
+
+.pages-image
+{	
+	position:absolute;
+	right:0px;
+	top:20px;
+}
+
+/*COLORS*/
+
+.colors-section
+{
+	height:875px;
+}
+
+.colors-text
+{
+	position:absolute;
+	right:20px;
+	top:300px;
+}
+
+.colors-html-text {
+  color: #fae8d2;
+    left: 616px;
+    position: absolute;
+    top: 408px;
+    width: 495px;
+}
+
+.colors-image
+{
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+
+/*TOOLS*/
+
+.tools-section
+{
+	height:690px;
+}
+
+.tools-text
+{
+	position:absolute;
+	left:0px;
+	top:110px;
+}
+
+.tools-html-text
+{
+	left: 31px;
+    position: absolute;
+    top: 210px;
+    width: 420px;
+}	
+
+.tools-image
+{	
+	position:absolute;
+	right:-31px;
+	top:20px;
+}
+
+/*CONTROL PANEL*/
+
+.control-section
+{
+	margin-bottom: 0;
+    margin-top: -40px;
+	height:875px;
+}
+
+.control-panel-image
+{
+	 position: absolute;
+    right: 28px;
+}
+
+.control-panel-html-text
+{
+	color: #fae8d2;
+    left: 209px;
+    position: absolute;
+    top: 688px;
+    width: 680px;
+}	
+
+/*SHARE*/
+
+.share-section
+{
+	height:830px;
+}
+
+.share-text
+{
+	position:absolute;
+	right:40px;
+	top:240px;
+}
+
+.share-html-text
+{
+	left: 659px;
+    position: absolute;
+    top: 336px;
+    width: 420px;
+}	
+
+.share-image
+{
+	position:absolute;
+	left:0px;
+	top:35px;
+}
+
+.share-icons
+{
+	position:absolute;
+	right:36px;
+	top:510px;
+}
+
+
+/*FOOTER*/
+
+.footer
+{
+	height:585px;
+	margin-bottom:0px;
+}
+
+.footer-btn
+{
+	position:absolute;
+	right:135px;
+	top:390px;
+}
+
+.footer-icon
+{
+	position:absolute;
+	right:70px;
+	top:35px;
+}
+
+.footer-image
+{
+	position:absolute;
+	left:0px;
+	top:55px;
+}
+
+.footer-rule {
+	background-color: #fae8d2;
+	height: 5px;
+	width:1120px;
+	
+	margin-top:10px;
+	margin-bottom:40px;
+	position:absolute;
+	top:498px;
+}
+
+.footer-copyright
+{
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:12px;
+	color:#fae8d2;
+	position:absolute;
+	top:520px;
+}
